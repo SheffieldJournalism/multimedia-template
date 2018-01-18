@@ -3,6 +3,8 @@
 
 [A demo of this framework can be found here.](https://sheffieldjournalism.github.io/multimedia-template/)
 
+[And more examples are here.](https://sheffieldjournalism.github.io/multimedia-template/examples.html)
+
 This template is in the style of a longform page. The longform style strips out web page furniture such as masthead, navigation, sidebar etc to focus on the content.
 
 Features of the template include:
