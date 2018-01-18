@@ -1,9 +1,9 @@
 
 # A Basic Longform template
 
-[A demo of this framework can be found here.](https://sheffieldjournalism.github.io/Longform-template/)
+[A demo of this framework can be found here.](https://sheffieldjournalism.github.io/multimedia-template/)
 
-This template is in the style of a longform page. The longform style strips out web page furniture such as masthead, navigation, sidebar etc to focus on the content. 
+This template is in the style of a longform page. The longform style strips out web page furniture such as masthead, navigation, sidebar etc to focus on the content.
 
 Features of the template include:
 
@@ -16,7 +16,7 @@ Features of the template include:
 The files you need to edit are:
 
 - **index.html** this is the web page itself
-- css/**style.css** is where the CSS styles go
+- **style.css** is where the CSS styles go
 - js/**index.js** is where the bits of JavaScript go
 - **images** is the folder where you put your images and other media
 
@@ -27,9 +27,9 @@ The structure of the template is simple. Content is separated into **sections** 
 
 There are three types of ```<section>```. They are visually different from each other and are differentiated using the class names:
 
-- **content** ```<section class="content">``` gives you a column you can add content to, like paragraphs, images, embed maps etc 
-- **image_bg** ```<section class="image_bg">``` gives you full width/height section that you can apply background image to* 
-- **color_bg** ```<section class="color_bg">``` gives you a full width/height section that you can apply a background colour to* 
+- **content** ```<section class="content">``` gives you a column you can add content to, like paragraphs, images, embed maps etc
+- **image_bg** ```<section class="image_bg">``` gives you full width/height section that you can apply background image to*
+- **color_bg** ```<section class="color_bg">``` gives you a full width/height section that you can apply a background colour to*
 
 *To apply the background image or colour, you need to add an additional class name where you can specify the image's path or colour code in the CSS (see below).
 
@@ -69,7 +69,7 @@ This means I can add a new style **in style.css** that points to my image of the
 
 ```
 .pier {
-  background: url(../images/luc-sur-mer-pier.jpg);
+  background: url(images/luc-sur-mer-pier.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -136,7 +136,7 @@ $(document).ready(function(){
 
 ```
 
-The above initialises a carousel. If you want another one, just make a new div with a different class name e.g. 
+The above initialises a carousel. If you want another one, just make a new div with a different class name e.g.
 
 ```
 <div class="carousel_two">
@@ -149,7 +149,7 @@ $(document).ready(function(){
   $('.carousel').slick({
     dots: true
   });
-  
+
   $('.carousel_two').slick({
     dots: true
   });
