@@ -5,6 +5,12 @@
 
 [And more examples are here.](https://sheffieldjournalism.github.io/multimedia-template/examples.html)
 
+### Having problems or need help making something work? 
+
+Use the **Issues** tab above to post any questions you have about problems or how to do things.
+
+---
+
 This template is in the style of a longform page. The longform style strips out web page furniture such as masthead, navigation, sidebar etc to focus on the content.
 
 Features of the template include:
