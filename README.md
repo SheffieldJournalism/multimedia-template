@@ -28,7 +28,7 @@ The files you need to edit are:
 - js/**index.js** is where the bits of JavaScript go
 - **images** is the folder where you put your images and other media
 - **examples.html** has examples of some different elements or features you could add
-- **snippets.html** has HTML snippets that you can copy/paste and modify
+- **HTML_snippets.html** has HTML snippets that you can copy/paste and modify
 
 
 ## Structure
