@@ -5,13 +5,13 @@
 
 [And more examples are here.](https://sheffieldjournalism.github.io/multimedia-template/examples.html)
 
-### Having problems or need help making something work? 
+### Having problems or need help making something work?
 
 Use the **Issues** tab above to post any questions you have about problems or how to do things.
 
 ---
 
-This template is in the style of a longform page. The longform style strips out web page furniture such as masthead, navigation, sidebar etc to focus on the content.
+This template is in the style of a longform multimedia page. The longform style strips out web page furniture such as masthead, navigation, sidebar etc to focus on the content.
 
 Features of the template include:
 
@@ -27,6 +27,8 @@ The files you need to edit are:
 - **style.css** is where the CSS styles go
 - js/**index.js** is where the bits of JavaScript go
 - **images** is the folder where you put your images and other media
+- **examples.html** has examples of some different elements or features you could add
+- **snippets.html** has HTML snippets that you can copy/paste and modify
 
 
 ## Structure
@@ -36,8 +38,7 @@ The structure of the template is simple. Content is separated into **sections** 
 There are three types of ```<section>```. They are visually different from each other and are differentiated using the class names:
 
 - **content** ```<section class="content">``` gives you a column you can add content to, like paragraphs, images, embed maps etc
-- **image_bg** ```<section class="image_bg">``` gives you full width/height section that you can apply background image to*
-- **color_bg** ```<section class="color_bg">``` gives you a full width/height section that you can apply a background colour to*
+- **image_bg** ```<section class="image_bg">``` gives you full width/height section that you can apply background image* or background colour to
 
 *To apply the background image or colour, you need to add an additional class name where you can specify the image's path or colour code in the CSS (see below).
 
@@ -66,7 +67,7 @@ Adding the **image_bg** class to a section makes it go full width/height.
 ```
 ![full height and width](https://github.com/SheffieldJournalism/Longfrom-template/raw/master/ReadmeFiles/100vh.png)
 
-To specify a background image, an additional class name is required. I want to use an image of a pier, so I'm going to add the class name "pier":
+To specify a background image, an additional class name is required. If I want to for e.g. use an image of a pier, I might want to add the class name "pier" to the section:
 
 ```
 <section class="pier image_bg">
@@ -101,22 +102,22 @@ But it doesn't need to be headings, it could be blockquote, or anything. This ma
 
 ### Big heading sections with full width/height and background colour
 
-As well as headers with background images, you can have just a colour.
+As well as headers with background images, you can have just a colour. Use the same class as for an image:
 
 ```
-<section class="color_bg">
+<section class="image_bg">
 
 </section>
 ```
-The **color_bg** class sets up the section's dimensions. The addition of your own class e.g. "bg_green" allows you to set it's colour:
+The **image_bg** class sets up the section's dimensions. The addition of your own class e.g. "bg_green" allows you to set it's colour:
 ```
-<section class="color_bg bg_green">
+<section class="image_bg my_green">
 
 </section>
 ```
 And in CSS, create a new style:
 ```
-.bg_green {
+.my_green {
   background: #bada55;
 }
 ```
