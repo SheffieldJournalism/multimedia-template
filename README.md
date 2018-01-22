@@ -28,6 +28,9 @@ The files you need to edit are:
 - **style.css** is where the CSS styles go
 - js/**index.js** is where the bits of JavaScript go
 - **images** is the folder where you put your images and other media
+
+There are also some other files that will help you add additonal content to your page:
+
 - **examples.html** has examples of some different elements or features you could add
 - **HTML_snippets.html** has HTML snippets that you can copy/paste and modify
 
@@ -36,7 +39,7 @@ The files you need to edit are:
 
 The structure of the template is simple. Content is separated into **sections** using the HTML tag ```<section>```.
 
-There are three types of ```<section>```. They are visually different from each other and are differentiated using the class names:
+There are two types of ```<section>```. They are visually different from each other and are differentiated using these **class names**:
 
 - **content** ```<section class="content">``` gives you a column you can add content to, like paragraphs, images, embed maps etc
 - **image_bg** ```<section class="image_bg">``` gives you full width/height section that you can apply background image* or background colour to
