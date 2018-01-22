@@ -89,7 +89,7 @@ This means I can add a new style **in style.css** that points to my image of the
 ```
 ![background image](https://github.com/SheffieldJournalism/Longfrom-template/raw/master/ReadmeFiles/bg-image.png)
 
-You can then put content inside this section, for example a header with headings:
+You can then put any content inside this section, but I recommend using a **header** element with at least a h1 and/or h2 in there:
 ```
 <section class="pier image_bg">
   <header>
