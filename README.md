@@ -17,6 +17,7 @@ Features of the template include:
 
 - full width/height section headings with static background images
 - clear typography
+- image/content slider
 - scroll animations
 
 ## The files
