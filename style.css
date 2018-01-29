@@ -270,3 +270,33 @@ header a {
     -ms-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+
+/* Create an overlay colour or image
+to cover the background image of a full screen header.
+This could be a transparent colour - see the coomented line below, or an image.
+The image defined below is a black/transparent vignette-styled png file.   */
+.overlay_full {
+  position: absolute;
+/* background: rgba(122,55,0,0.3); */
+background: url(images/grad1.png) no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+z-index: 2;
+}
+
+.front { /* apply this to the header that corresponds to the overlay_full element.
+  It will ensure that the header and text go above the overlay colour or image*/
+  z-index:100;
+}
+
+
+.overlay_full_holes {
+  position: absolute;
+/* background: rgba(122,55,0,0.3); */
+background: url(images/grad2.png) no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+z-index: 2;
+}
