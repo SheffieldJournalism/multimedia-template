@@ -245,7 +245,7 @@ header a {
 }
 
 .embed_bg { /* a hack to make embedding stuff into the headers work */
-  height: 100vh;
+  /* height: 100vh; */
    /* this sets the height of each full width image section to that of the viewport.*/
    position: relative;
    /*display: flex;  */
