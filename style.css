@@ -168,6 +168,13 @@ header a {
   width: 100% !important;
 }
 
+.embeds {
+  background: url(images/croissant-648803_1280.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100% !important;
+}
+
 /* Example stuff - The CSS for the additional examples in example.html */
 
 .profile img { /* styles the profile images in the first header section*/
