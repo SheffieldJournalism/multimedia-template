@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="js/slick/slick.css">
     <link rel="stylesheet" href="js/slick/slick-theme.css">
 
-    <!-- Include js plugin -->
+    <!-- AOS stylesheet -->
+    <link rel="stylesheet" href="css/aos.css">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/mobile.css">
@@ -250,23 +252,23 @@ A normal blockquote (no class applied):
 <p>Here's a row of images..</p>
 
 <div class="flex_container">
-  <div class="item"><img src="https://placeimg.com/480/480/any" alt=""></div>
-  <div class="item"><img src="https://placeimg.com/480/480/any" alt=""></div>
-  <div class="item"><img src="https://placeimg.com/480/480/any" alt=""></div>
+  <div class="item round"><img src="https://placeimg.com/480/480/any" alt=""></div>
+  <div class="item round"><img src="https://placeimg.com/480/480/any" alt=""></div>
+  <div class="item round"><img src="https://placeimg.com/480/480/any" alt=""></div>
 </div>
 
-<p>Theere can be more of them:</p>
+<p>There can be more of them:</p>
 
 <div class="flex_container">
-  <div class="item"><img src="https://placeimg.com/480/480/any" alt=""></div>
-  <div class="item"><img src="https://placeimg.com/480/480/any" alt=""></div>
-  <div class="item"><img src="https://placeimg.com/480/480/any" alt=""></div>
-  <div class="item"><img src="https://placeimg.com/480/480/any" alt=""></div>
-  <div class="item"><img src="https://placeimg.com/480/480/any" alt=""></div>
-  <div class="item"><img src="https://placeimg.com/480/480/any" alt=""></div>
+  <div class="item round"><img src="https://placeimg.com/480/480/any" alt=""></div>
+  <div class="item round"><img src="https://placeimg.com/480/480/any" alt=""></div>
+  <div class="item round"><img src="https://placeimg.com/480/480/any" alt=""></div>
+  <div class="item round"><img src="https://placeimg.com/480/480/any" alt=""></div>
+  <div class="item round"><img src="https://placeimg.com/480/480/any" alt=""></div>
+  <div class="item round"><img src="https://placeimg.com/480/480/any" alt=""></div>
 </div>
 
-<p>They can have more stuff in them:</p>
+<p>They can have more stuff in them and don't have to be round:</p>
 
 <div class="flex_container">
   <div class="item"><img src="https://placeimg.com/480/480/any" alt="">
@@ -293,13 +295,20 @@ A normal blockquote (no class applied):
 
         <section class="content">
           <h2>Animate things!</h2>
-
+<p>These images use wow.js to animate them: </p>
           <div class="flex_container">
-            <div class="item wow bounceInLeft" data-wow-delay="0.2s"><img src="https://placeimg.com/480/480/any" alt=""></div>
-            <div class="item wow bounceIn" data-wow-delay="1.2s"><img src="https://placeimg.com/480/480/any" alt=""></div>
-            <div class="item wow bounceInRight" data-wow-delay="0.2s"><img src="https://placeimg.com/480/480/any" alt=""></div>
+            <div class="item round wow  bounceInLeft" data-wow-delay="0.2s"><img src="https://placeimg.com/480/480/any" alt=""></div>
+            <div class="item round wow  bounceIn" data-wow-delay="1.2s"><img src="https://placeimg.com/480/480/any" alt=""></div>
+            <div class="item round wow  bounceInRight" data-wow-delay="0.2s"><img src="https://placeimg.com/480/480/any" alt=""></div>
           </div>
 
+<p>These images are animated uisng AOS:</p>
+
+<div class="flex_container">
+  <div class="item round" data-aos="fade-right" data-aos-delay="400" data-aos-easing="ease-in-sine"><img src="https://placeimg.com/480/480/any" alt=""></div>
+  <div class="item round" data-aos="zoom-in-up" data-aos-delay="600" data-aos-easing="ease-in-sine"><img src="https://placeimg.com/480/480/any" alt=""></div>
+  <div class="item round" data-aos="fade-left" data-aos-delay="400" data-aos-easing="ease-in-sine"><img src="https://placeimg.com/480/480/any" alt=""></div>
+</div>
         </section>
 
 <!-- this is a parallax section! -->
@@ -401,7 +410,7 @@ A normal blockquote (no class applied):
     <script src="js/slick/slick.min.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/jquery.vide.min.js"></script>
-
+    <script src="js/aos.js"></script>
     <script src="js/index.js"></script>
 
 </body>
